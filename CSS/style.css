@@ -1,0 +1,100 @@
+.col-1 {width:8.33%}
+.col-2 {width:16.66%}
+.col-3 {width:25%}
+.col-4 {width:33.33%}
+.col-5 {width:41.66%}
+.col-6 {width:50%}
+.col-7 {width:58.33%}
+.col-8 {width:66.66%}
+.col-9 {width:75%}
+.col-10 {width:83.33%}
+.col-11 {width:91.66%}
+.col-12 {width:100%}
+[class*="col-"] {
+    float:left;}
+ 
+* {
+    box-sizing: border-box;
+    }
+h1, h2, h3, h4{
+    text-align: center;
+    font-family:Viafont;
+    color: black;
+}
+    h4{
+        color:white;
+    }
+
+@font-face{
+    font-family:Viafont;
+    src:url(viafont.otf);
+  
+}
+    .container-fluid{
+        border:1px solid black;
+        padding:10px;
+    }
+    
+    
+    .section1{
+        padding-top: 10px;
+        padding-left:75px;
+        padding-right: 75px;
+        padding-bottom: 50px;
+        margin: 10px;
+        color:white;
+        background-color: black;
+    }
+    
+    .footer{
+        text-align: center;
+    }
+    
+    .n300_px_wide{
+        width: 450px;
+        height:450px;
+        margin-bottom:50px;
+        clear:both;
+        margin-left: 33%;
+    }
+        
+
+    .box{
+        border:1px solid black;
+        text-align: center;
+        margin-left:33%;
+        
+        margin-top:200px;
+        margin-bottom: 100px;
+        background-color: black;
+    }
+   hr{
+       outline:5px solid black;
+   }
+.section2{
+    text-align: center;
+    color:white;
+    margin:0 300px 0 300px;
+    background-color: black;
+    clear:both
+
+    
+}
+.formula{
+    border-color:black;
+    margin:20px;
+}
+.sizing{
+padding:10px 30px 10px 30px;
+}
+.fab{
+    color:black;
+    padding-bottom: 10px;
+}
+#story{
+    color:white;
+}
+
+
+
+ 
